@@ -12,13 +12,13 @@ int main()
     prod = a * b;
 
     cout << "Sum = " << sum<<endl;
-    cout << "\nSubtraction = " << sub<<endl;
-    cout << "\nProduct = " << prod<<endl;
+    cout << "Subtraction = " << sub<<endl;
+    cout << "Product = " << prod<<endl;
 
     if (b != 0)
     {
         div = a / b;
-        cout << "\nDivision: " << div<<endl;
+        cout << "Division: " << div<<endl;
     }
     else
     {
