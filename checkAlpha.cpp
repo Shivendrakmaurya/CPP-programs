@@ -1,37 +1,33 @@
-// C++ program to check whether the entered character is a vowel or consonant
-
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
                char alpha;
-
-               // Taking input from user
                cout << "Enter an alphabet = ";
                cin >> alpha;
 
-               // Switch statement to check vowel or consonant
-               switch (alpha){
-
-               // Checking for lowercase vowels
+               switch (alpha)
+               {
+               //Lower case
                case 'a':
                case 'e':
                case 'i':
                case 'o':
                case 'u':
 
-               // Checking for uppercase vowels
+               //Upper case
                case 'A':
                case 'E':
                case 'I':
                case 'O':
                case 'U':
-               cout << alpha << " is a vowel";
-               break; // Exit switch statement
+                              cout << alpha << " is a vowel";
+                              break;
 
-               // If character is not a vowel
-               default:cout << alpha << " is a consonant";
+               default:
+                              cout << alpha << " is a consonant";
                }
 
                return 0;
